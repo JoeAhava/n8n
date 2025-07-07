@@ -37,6 +37,8 @@ services:
         value: postgresdb
       - key: PORT
         value: 5678
+      - key: WEBHOOK_URL
+        value: https://n8n-service-55x7.onrender.com
       - key: DB_POSTGRESDB_DATABASE
         fromDatabase:
           name: n8n-db
